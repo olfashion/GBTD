@@ -1,4 +1,28 @@
+# Godot-generated import cache. Keep .gd.uid and source .import files tracked.
 .godot/
-.import/
-*.tmp
+
+# Exported builds and generated Android Gradle project.
+builds/
+android/build/
+android/.gradle/
+
+# Local editor and OS files.
 .DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.tmp
+*.log
+
+# Signing and deployment credentials belong outside the repository.
+.godot/export_credentials.cfg
+*.keystore
+*.jks
+*.p12
+*.p8
+*.mobileprovision
+.env
+.env.*
+
+# Runtime profiles are user data, never source assets.
+good_boys_save.json*

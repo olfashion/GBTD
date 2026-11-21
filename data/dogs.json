@@ -1,0 +1,30 @@
+{
+  "retriever": {
+    "name": "Golden Retriever", "short_name": "Retriever", "role": "Ball launcher",
+    "description": "Bouncing tennis balls. A dependable first defender; upgraded balls ricochet through the swarm.",
+    "cost": 150, "unlock_cost": 0, "hp": 120, "armor": 0,
+    "damage": 16, "interval": 0.82, "range": 4.4, "recovery": 8.0,
+    "color": "e9ae54", "upgrade_costs": [120, 220]
+  },
+  "dachshund": {
+    "name": "Dachshund", "short_name": "Dachshund", "role": "Poop trapper",
+    "description": "Leaves stinky traps that slow and damage passing wildlife. Four active traps per dog.",
+    "cost": 190, "unlock_cost": 2, "hp": 105, "armor": 0,
+    "damage": 8, "interval": 2.4, "range": 4.0, "recovery": 8.0,
+    "color": "ab683d", "upgrade_costs": [150, 260]
+  },
+  "bulldog": {
+    "name": "Bulldog", "short_name": "Bulldog", "role": "Bark guardian",
+    "description": "A booming bark hits a crowd and pushes it back. Draws nearby enemy attacks away from other dogs.",
+    "cost": 260, "unlock_cost": 3, "hp": 245, "armor": 30,
+    "damage": 19, "interval": 1.55, "range": 3.7, "recovery": 10.0,
+    "color": "bbc0c8", "upgrade_costs": [190, 320]
+  },
+  "malinois": {
+    "name": "Belgian Malinois", "short_name": "Malinois", "role": "Elite melee",
+    "description": "The Fur Missile. A tactical vest absorbs damage while lightning-fast tackles break enemy armor.",
+    "cost": 1500, "unlock_cost": 8, "hp": 280, "armor": 120,
+    "damage": 94, "interval": 0.40, "range": 5.3, "recovery": 9.0,
+    "color": "a77743", "upgrade_costs": [950, 1450]
+  }
+}

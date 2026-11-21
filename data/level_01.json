@@ -1,0 +1,21 @@
+{
+  "id": "backyard_01",
+  "name": "The First Yard",
+  "location": "Liberty Hill, Texas",
+  "starting_bones": 450,
+  "starting_lives": 20,
+  "path": [[-15,-5],[-9,-5],[-7,-3],[-7,3],[-4,5],[2,5],[5,2],[5,-3],[8,-5],[11,-5],[13,-2],[13,5],[15,5]],
+  "pads": [[-11,-2],[-8.6,1.6],[-4.2,3],[-2,7.2],[1.4,3.2],[4.2,7.2],[6.8,0.8],[3.3,-1.7],[7,-7.2],[10.4,-3.4],[11.3,3.6],[15,0.3],[-12,-7.2],[-4.6,-3.1]],
+  "waves": [
+    {"name":"Ants at the gate", "bonus":50, "groups":[{"type":"ant","count":8,"interval":1.15}]},
+    {"name":"The picnic patrol", "bonus":60, "groups":[{"type":"ant","count":13,"interval":0.85}]},
+    {"name":"A little shell shock", "bonus":70, "groups":[{"type":"ant","count":8,"interval":0.65},{"type":"beetle","count":4,"interval":1.5}]},
+    {"name":"Eight-legged zoomies", "bonus":80, "groups":[{"type":"spider","count":9,"interval":1.1},{"type":"ant","count":10,"interval":0.6}]},
+    {"name":"The garden party", "bonus":90, "groups":[{"type":"beetle","count":7,"interval":1.1},{"type":"ant","count":16,"interval":0.45}]},
+    {"name":"Watch your paws", "bonus":100, "groups":[{"type":"scorpion","count":5,"interval":1.6},{"type":"spider","count":10,"interval":0.75}]},
+    {"name":"After the rain", "bonus":110, "groups":[{"type":"ant","count":24,"interval":0.33},{"type":"beetle","count":10,"interval":0.75}]},
+    {"name":"A Hill Country welcome", "bonus":125, "groups":[{"type":"scorpion","count":8,"interval":1.1},{"type":"spider","count":15,"interval":0.5}]},
+    {"name":"Hold the backyard", "bonus":140, "groups":[{"type":"beetle","count":13,"interval":0.7},{"type":"scorpion","count":8,"interval":0.9},{"type":"spider","count":14,"interval":0.45}]},
+    {"name":"Big Tex comes calling", "bonus":180, "groups":[{"type":"ant","count":16,"interval":0.4},{"type":"scorpion_boss","count":1,"interval":1.0},{"type":"scorpion","count":9,"interval":0.9},{"type":"spider","count":18,"interval":0.4}]}
+  ]
+}
